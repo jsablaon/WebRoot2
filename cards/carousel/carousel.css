@@ -1,0 +1,39 @@
+#window {
+    display: block;
+    width: 400px;   
+    height: 400px;
+    border: 1px solid;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider {
+    display: flex;
+    transform: translateX(000px);
+    animation: move 40s infinite;
+}
+    
+@keyframes move {
+    0% { transition: ease-in; transform: translateX(-100%); }
+    10% { transition: ease-in; transform: translateX(-200%); }
+    20% { transition: ease-in; transform: translateX(-300%); }
+    30% { transition: ease-in; transform: translateX(-400%); }
+    40% { transition: ease-in; transform: translateX(-500%); }
+    50% { transition: ease-in; transform: translateX(-600%); }
+    60% { transition: ease-in; transform: translateX(-500%); }
+    70% { transition: ease-in; transform: translateX(-400%); }
+    80% { transition: ease-in; transform: translateX(-300%); }
+    90% { transition: ease-in; transform: translateX(-200%); }
+    100% { transition: ease-in; transform: translateX(-100%); }
+}
+
+#imageCollection{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    height: 400px;
+    width: 1200px;
+}
+     
