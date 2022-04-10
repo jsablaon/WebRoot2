@@ -10,6 +10,17 @@ p {
     margin: 0;
 }
 
+#profilePicture{
+  height: "250px"; 
+  width: "200px";
+  opacity: 0.1;
+  border-radius: 50%;
+  border: #F7C331 solid;
+}
+#profilePicture:hover{
+  opacity: 1;
+}
+
 @keyframes blinker{
     50%{
         opacity: 0;
